@@ -1,0 +1,38 @@
+title: Micro Repair Café
+description: Jouw apparaat, onze missie - een groenere toekomst!
+
+url: https://microrepaircafe.nl
+paginate_path: "content/page:num/"
+permalink: content/:title/
+
+# Header Option
+# header: large
+
+sass:
+    style: compressed
+
+markdown: kramdown
+highlighter: rouge
+plugins: [jekyll-paginate]
+paginate: 8
+
+navigation:
+    - title: Waarom?
+      url: /waarom
+    - title: Wat?
+      url: /wat
+    - title: Wie?
+      url: /wie
+
+
+social:
+    github: microrepaircafe
+#    twitter: 
+#    facebook: 
+    email: info@microrepaircafe.nl
+#    linkedin: 
+
+#google_analytics: "UA-58263416-1"
+
+#disqus:
+#    shortname: 
